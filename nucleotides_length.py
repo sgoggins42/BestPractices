@@ -15,5 +15,16 @@ nBases = len(DNASeq)
 
 print nBases
 
+# Calculate the percent of each nucleotide
+# First determine the unique values using set
+Bases = set(DNASeq)
+# Empty vector for recording the number of each base
+Number = {}
+
+for nucleotide in Bases:
+        Number[nucleotide] = DNASeq.count(nucleotide)
+        # Calculate proportion of nucleotide
+        print "%s: %5.1f" % (nucleotide, 100*Number[nucleotide]/float(len(DNASeq)))
+
 # Print out time of script by subtracking time now from startTime
 print datetime.now() - startTime
