@@ -3,9 +3,29 @@
 **Date:**  01/22/2016    
 **Code written by:** Jeff Neyhart and Shawn Goggins
     
-##Script bases_per_sequence.py:   
+##Script bases_count.py:   
 ```    
-  Calculates the length of your sequence data    
-  Use the following command substituing your text file for data.txt    
-  > python bases_per_sequence.py data.txt
+  Calculates the length of the sequence using a count function and the proportions of different bases    
+  Use the following command to run the script    
+  > python bases_count.py
 ```
+
+##Script nucleotide_length.py
+```
+  Calculates the length of the sequence using the function len and the proportions of different bases     
+  Use the following command to run the script    
+  > python nucleotide_length.py
+```
+
+## Script read_in.py
+```
+  Calculates the lenght of any fasta sequence using the function len and the proportion of different bases    
+  Use the following command to run the script substituting your sequences file for data.txt    
+  > python read_in.py data.txt    
+```
+
+
+
+
+
+
