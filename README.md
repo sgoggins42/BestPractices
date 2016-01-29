@@ -1,7 +1,8 @@
 # Best Practices for Scientific Computing. 2014. Wilson *et. al.*
   
 **Date:**  01/22/2016    
-**Code written by:** Jeff Neyhart and Shawn Goggins
+**Code written by:** Jeff Neyhart and Shawn Goggins  
+**Discussion Paper** [Wilson et al. 2014 PLOS Biology](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
     
 ##Script bases_count.py:   
 ```    
