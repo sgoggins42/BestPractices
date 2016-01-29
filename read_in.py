@@ -2,6 +2,8 @@
 
 # This script reads in text files
 
+import sys
+
 # Start timing of script
 from datetime import datetime
 startTime = datetime.now()
@@ -11,7 +13,7 @@ startTime = datetime.now()
 sequence = []
 
 # Open the file to read ('r')
-with open("BRCA1_Homo.sapiens.txt", 'r') as f:
+with open(sys.argv[1], 'r') as f:
 	# For each line
 	for line in f:
 		# If it starts with '>' (i.e. the first line), skip it
