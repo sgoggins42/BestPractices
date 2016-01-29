@@ -1,0 +1,10 @@
+Debugging
+   Use print statements along the way to check that the code is working.
+   Use a toy data set to test for the logic of your script.
+
+Optimization
+   Do not be redundant in functions and loops that you write
+
+Documentation
+   Make a detailed readme for description of contents
+   Make a detailed wiki for how to run contents
