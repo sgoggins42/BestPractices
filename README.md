@@ -25,8 +25,3 @@
   > python read_in.py data.txt    
 ```
 
-
-
-
-
-
